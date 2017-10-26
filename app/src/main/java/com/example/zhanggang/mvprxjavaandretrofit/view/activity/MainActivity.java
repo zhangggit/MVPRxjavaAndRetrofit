@@ -25,9 +25,7 @@ public class MainActivity extends AppCompatActivity implements RegisterView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = (TextView) findViewById(R.id.textview);
-
         registerPresenter = new RegisterPresenter(this);
-
     }
     public void onClick(View view) {
         registerPresenter.register();

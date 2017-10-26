@@ -8,6 +8,5 @@ import com.example.zhanggang.mvprxjavaandretrofit.model.bean.Data;
 
 public interface RegisterView extends IView {
     void successed(Data data);
-
     void failed(Throwable throwable);
 }

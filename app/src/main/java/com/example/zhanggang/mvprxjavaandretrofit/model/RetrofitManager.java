@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitManager {
 
     private Retrofit retrofit;
-    private static final String BASE_URL="http://gank.io/api/history/content/1/1/";
+    private static final String BASE_URL="http://gank.io/api/history/content/";
 
     //单列模式
     public static class SingleHolder{

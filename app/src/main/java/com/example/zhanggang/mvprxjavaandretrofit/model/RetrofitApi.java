@@ -10,6 +10,6 @@ import retrofit2.http.GET;
  */
 
 public interface RetrofitApi {
-    @GET("http://gank.io/api/history/content/1/1")
+    @GET("1/1")
     Observable<Data> register();
 }

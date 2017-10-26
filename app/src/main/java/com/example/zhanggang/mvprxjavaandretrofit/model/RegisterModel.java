@@ -9,9 +9,9 @@ import io.reactivex.Observable;
  */
 
 public class RegisterModel {
-    //http://gank.io/api/history/content/1/1   获得上游
+    //http://gank.io/api/history/content/1/1
     public Observable<Data> register(){
-        Observable<Data> observable = RetrofitManager.getDefalut().create(RetrofitApi.class).register();
+        Observable<Data> observable = RetrofitManager.getDefalut().create(RetrofitApi.class).register(); //获得上游
         return observable;
     }
 }

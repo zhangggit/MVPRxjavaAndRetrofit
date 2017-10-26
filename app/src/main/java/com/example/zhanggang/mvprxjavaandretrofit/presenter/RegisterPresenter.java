@@ -49,7 +49,5 @@ public class RegisterPresenter extends IPresenter<RegisterView> {
                         }
                     }
                 });
-
     }
-
 }
